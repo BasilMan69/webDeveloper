@@ -29,7 +29,9 @@ public class Test{
         int num = input.nextInt();
         input.close();
         printPrimeNumbers(num);
-
+        
+        System.out.println("Im also here to create conflict");
+        
         System.out.println("Bye bye world");
         
     }
