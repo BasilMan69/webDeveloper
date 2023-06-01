@@ -1,12 +1,7 @@
 import java.util.Scanner;
 
 public class Test{
-    public static void main(String[] args){
-        System.out.println("Hello World");
-        
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter the limit: ");
-        int num = input.nextInt();
+    public static void printPrimeNumbers(int num){
         System.out.println("Prime numbers:");
         for(int i=2; i<=num; i++){
             if(i == 2 || i == 3){
@@ -25,6 +20,14 @@ public class Test{
                 }
             }
         }
+    }
+    public static void main(String[] args){
+        System.out.println("Hello World");
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the limit: ");
+        int num = input.nextInt();
+        printPrimeNumbers(num);
 
         System.out.println("Bye bye world");
     }
