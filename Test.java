@@ -27,10 +27,12 @@ public class Test{
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the limit: ");
         int num = input.nextInt();
+        input.close();
         printPrimeNumbers(num);
 
         System.out.println("Im just here to create merge conflict");
         
         System.out.println("Bye bye world");
+        
     }
 }
