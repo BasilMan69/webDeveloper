@@ -29,6 +29,8 @@ public class Test{
         int num = input.nextInt();
         printPrimeNumbers(num);
 
+        System.out.println("Im just here to create merge conflict");
+        
         System.out.println("Bye bye world");
     }
 }
