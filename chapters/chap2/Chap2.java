@@ -1,4 +1,4 @@
-package chapters;
+package chapters.chap2;
 public class Chap2 {
     public static void b4(){
         //a
